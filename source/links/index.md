@@ -21,4 +21,6 @@ date: 2016-10-03 10:02:31
 - [MedalPluS](http://medalplus.com/)
 - [Menci](https://oi.men.ci/)
 - [nonamenotitle](https://owarisunezeko.wordpress.com/blog/)
+- [qiqi](http://blog.csdn.net/qq_37636528)
+- [zx2003](http://blog.csdn.net/zxin__)
 
