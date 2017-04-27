@@ -77,8 +77,8 @@ deploy:
 backup:
     type: git
     theme: indigo
-    repository:
-       github: https://github.com/q234rty/q234rty-s-Blog.git
+    repository: 
+       github: https://github.com/q234rty/q234rty-s-Blog.git,master
 jsonContent:
   meta: false
   pages: false
