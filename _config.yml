@@ -76,8 +76,7 @@ deploy:
   branch: master
 backup:
   type: git
-  repository:
-   github: https://github.com/q234rty/q234rty-s-Blog.git,master
+  repository: https://github.com/q234rty/q234rty-s-Blog.git,master
 jsonContent:
   meta: false
   pages: false
