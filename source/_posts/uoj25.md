@@ -1,7 +1,10 @@
 ---
 title: 【UOJ25】【IOI2014】Wall
 date: 2017-03-28 10:32:49
+mathjax: true
+toc: false
 tags:
+- 线段树
 ---
 线段树即可。
 

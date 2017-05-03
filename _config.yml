@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: indigo
+theme: material
 # Markdown-it config
 ## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
 markdown: 'commonmark'
@@ -74,9 +74,6 @@ deploy:
   type: git
   repo: https://github.com/q234rty/q234rty.github.io.git
   branch: master
-backup:
-  type: git
-  repository: https://github.com/q234rty/q234rty-s-Blog.git,master
 jsonContent:
   meta: false
   pages: false
