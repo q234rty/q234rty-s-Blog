@@ -133,6 +133,10 @@ sidebar:
             link: "/links"
             icon: link
             divider: false
+        标签:
+            link: "/tags"
+            icon: bookmark
+            divider: false
     article_num:
         use: false
         divider: false
