@@ -163,16 +163,19 @@ materialcdn:
 
 # Comment Systems
 # Available value of "use":
-#     duoshuo | disqus | disqus_click | changyan | uyan
+#     duoshuo | disqus | disqus_click | changyan | gitment
 comment:
-    use: uyan
+    use: gitment
     shortname: q234rtysblog
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
-    uyan_uid: 2132201
+    gitment_owner: q234rty
+    gitment_repo: gitment-of-q234rty-s-Blog
+    gitment_client_id: db16ff2fce4b6c08542d
+    gitment_client_secret: 3ab05d4246a2baeec2a5de26ade9fbf2606249e9
 # Search Systems
 # Available value:
 #     swiftype | google | local

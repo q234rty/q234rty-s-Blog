@@ -41,14 +41,8 @@
         }
     </style>
 <% } %>
-<% if(theme.comment.use === 'uyan') { %>
-    <div id="uyan-comment">
-        <%- partial('_widget/uyan') %>
+<% if(theme.comment.use === 'gitment') { %>
+    <div id="gitment-comment">
+        <%- partial('_widget/gitment') %>
     </div>
-    <style>
-        #uyan-comment{
-            background-color: #eee;
-            padding: 2pc;
-        }
-    </style>
 <% } %>
