@@ -163,7 +163,7 @@ a.gitment-header-issue-link:hover {
 .gitment-editor-main::before,
 .gitment-comment-main::before {
   border-width: 8px;
-  border-right-color: #CFD8DC;
+  border-right-color: #cfd8dc;
 }
 
 .gitment-editor-main::after,
@@ -171,7 +171,7 @@ a.gitment-header-issue-link:hover {
   margin-top: 1px;
   margin-left: 2px;
   border-width: 7px;
-  border-right-color: #fff;
+  border-right-color: #eee;
 }
 
 .gitment-comment-header {
