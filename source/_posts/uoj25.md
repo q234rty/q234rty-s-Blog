@@ -17,9 +17,9 @@ We need to build a wall!（雾）
 $$
 (l1,r1)+(l2,r2) =
 \begin{cases}
-(l2,l2), & \text{if $r1<l2$} \\\\
-(r2,r2), & \text{if $r2<l1$}  \\\\
-(\max(l1,l2),\min(r1,r2)), & \text{otherwise} \\\\
+(l2,l2), & \text{if $r1<l2$} \\
+(r2,r2), & \text{if $r2<l1$}  \\
+(\max(l1,l2),\min(r1,r2)), & \text{otherwise} \\
 \end{cases}
 $$
 
