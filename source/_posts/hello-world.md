@@ -11,5 +11,5 @@ tags:
 
 **Markdown**
 
-$\LaTeX$
+$\KaTeX$
 
