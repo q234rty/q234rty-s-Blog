@@ -36,11 +36,11 @@ hhw:
     descr: "胡主力"
 lych_cys:
     link: http://blog.csdn.net/lych_cys
-    avatar: http://avatar.csdn.net/3/2/2/1_lych_cys.jpg
-    descr: "AK的高一THU一本爷"
+    avatar: /img/lych_avatar.jpg
+    descr: "AK的高一集训队爷"
 YYMHL:
     link: http://blog.csdn.net/qq_35205305
-    avatar: http://avatar.csdn.net/0/1/F/1_qq_35205305.jpg
+    avatar: /img/yymhl_avatar.jpg
     descr: "高一队长"
 usqwedf:
     link: http://usqwedf.is-programmer.com/
@@ -52,11 +52,11 @@ wanglichao:
     descr: "汪大"
 wzf2000:
     link: http://blog.csdn.net/wzf_2000/
-    avatar: http://avatar.csdn.net/9/9/6/1_wzf_2000.jpg
+    avatar: /img/wzf_avatar.jpg
     descr: "海蜇大"
 miaom:
     link: http://blog.csdn.net/miao_zc/
-    avatar: http://avatar.csdn.net/6/C/9/1_miao_zc.jpg
+    avatar: /img/miaom_avatar.jpg
     descr: "小猫大"
 MedalPluS:
     link: http://medalplus.com
