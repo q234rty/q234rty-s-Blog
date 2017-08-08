@@ -71,9 +71,12 @@ html: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/q234rty/q234rty.github.io.git
-  branch: master
+  - type: git
+    repo: https://github.com/q234rty/q234rty.github.io.git
+    branch: master
+  - type: git
+    repo: https://git.coding.net/q234rty/q234rty.coding.me.git
+    branch: master
 jsonContent:
   meta: false
   pages: false

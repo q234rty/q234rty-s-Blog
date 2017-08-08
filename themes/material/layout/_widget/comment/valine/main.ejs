@@ -1,0 +1,11 @@
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/js/Valine.min.js"></script>
+<script>
+    new Valine({
+        av: AV, // source from av-min.js
+        el: '.comment',
+        app_id: "<%= theme.comment.valine_leancloud_appId %>",
+        app_key: "<%= theme.comment.valine_leancloud_appKey%>",
+        placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+    });
+</script>

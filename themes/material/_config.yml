@@ -189,7 +189,7 @@ materialcdn:
 # Available value of "use":
 #     disqus | disqus_click | changyan | 163gentie | gitment
 comment:
-    use: gitment
+    use: valine
     shortname: q234rtysblog # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
@@ -199,6 +199,8 @@ comment:
     gitment_repo: gitment-of-q234rty-s-Blog
     gitment_client_id: db16ff2fce4b6c08542d
     gitment_client_secret: 3ab05d4246a2baeec2a5de26ade9fbf2606249e9
+    valine_leancloud_appId: SuzIcOBo2rY9T18mS0g03ObY-gzGzoHsz # leancloud application app id
+    valine_leancloud_appKey: Gcgge7lFVj16eq5kznbTWQI9 # leancloud application app key
 
 # Search Systems
 # Available value:
