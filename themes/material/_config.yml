@@ -142,7 +142,7 @@ sidebar:
     archives:
         use: true
         icon: inbox
-        divider: false
+        divider: true
     categories:
         use: false
         icon: chrome_reader_mode
@@ -156,11 +156,15 @@ sidebar:
             link: "/tags"
             icon: bookmark
             divider: false
+        关于我:
+            link: "/about"
+            icon: person
+            divider: true
     article_num:
-        use: false
+        use: true
         divider: false
     footer:
-        divider: true
+        divider: false
         theme: true
         support: false
         feedback: false
