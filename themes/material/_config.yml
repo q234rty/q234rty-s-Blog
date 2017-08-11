@@ -161,7 +161,7 @@ sidebar:
             icon: person
             divider: true
     article_num:
-        use: true
+        use: false
         divider: false
     footer:
         divider: false
