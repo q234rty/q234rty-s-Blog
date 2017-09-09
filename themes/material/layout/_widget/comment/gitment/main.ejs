@@ -1,16 +1,2 @@
-<section class="comments" id="comments">
-    <div id="gitment_thread"></div>
-    <%- css('css/gitment') %>
-    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
-    <script>
-        var gitment = new Gitment({
-            owner: '<%- theme.comment.gitment_owner %>',
-            repo: '<%- theme.comment.gitment_repo %>',
-            oauth: {
-                client_id: '<%- theme.comment.gitment_client_id %>',
-                client_secret: '<%- theme.comment.gitment_client_secret %>',
-            },
-        })
-        gitment.render('comments')
-    </script>
-</section>
+<!-- Gitment 评论框 -->
+<div id="container"></div>
