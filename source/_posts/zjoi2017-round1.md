@@ -1,7 +1,6 @@
 ---
 title: ZJOI2017 Round1游记
 date: 2017-03-24 18:15:29
-mathjax: true
 tags:
 - 游记
 ---

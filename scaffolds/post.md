@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-mathjax: true
+mathjax: false
 toc: false
 ---
 
