@@ -60,11 +60,11 @@ miaom:
     descr: "小猫大"
 MedalPluS:
     link: http://medalplus.com
-    avatar: https://www.gravatar.com/avatar/517e7c4819efda3039b4893558c823f0?s=150&r=g&d=mm
+    avatar: /img/mps_avatar.png
     descr: "MPS"
 Menci:
     link: https://men.ci
-    avatar: https://dn-menci.qbox.me/images/avatar.png
+    avatar: /img/menci_avatar.png
     descr: "dalao"
 nonamenotitle:
     link: http://nonamenotitle.pub/
@@ -72,7 +72,7 @@ nonamenotitle:
     descr: "dalao*2"
 xehoth:
     link: https://xehoth.cc
-    avatar: https://oi.xehoth.cc/images/icon.gif
+    avatar: /img/xehoth_avatar.gif
     descr: "dalao*3"
 scarlyw:
     link: http://blog.csdn.net/scar_lyw
@@ -94,5 +94,19 @@ mrsrz:
     link: http://www.cnblogs.com/Mrsrz/
     avatar: /img/srz_avatar.png
     descr: "小学神"
-
-
+SW_Wind:
+    link: https://swwind.github.io/
+    avatar: /img/swwind_avatar.jpg
+    descr: "罗Gay♂楠"
+SHENZHEBEI:
+    link: https://shenzhebei.github.io/
+    avatar: /img/szb_avatar.jpg
+    descr: "沈哲♂贝"
+zhouyuyang:
+    link: http://blog.csdn.net/zhouyuyang233
+    avatar: /img/zyy_avatar.jpg
+    descr: "初三PKU一本爷"
+nn020701:
+    link: http://blog.csdn.net/nn020701/
+    avatar: /img/nn020701_avatar.jpg
+    descr: "陈天才"
