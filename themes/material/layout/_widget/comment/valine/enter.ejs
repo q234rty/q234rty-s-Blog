@@ -1,2 +1,20 @@
-<div id="comment" class="comment" style="padding:4pc"></div>
+<style>
+	.comment{
+		padding: 4pc;
+	}
+	.valine .vinput{
+		font-family: inherit;
+		font-size: 15px;
+	}
+	.valine .vcontent{
+		font-size: 16px !important;
+	}
+	.valine .vcontent a{
+		font-size: 16px !important;
+	}
+	.valine .vcontent p{
+		font-size: 16px !important;
+	}
+</style>
+<div id="comment" class="comment"></div>
 <%- partial('_widget/comment/' + theme.comment.use + '/main') %>
