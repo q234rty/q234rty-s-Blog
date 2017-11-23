@@ -78,6 +78,10 @@ scarlyw:
     link: http://blog.csdn.net/scar_lyw
     avatar: /img/scarlyw_avatar.jpg
     descr: "dalao*4"
+Bill_Yang:
+    link: https://bill_yang_2016.coding.me/
+    avatar: /img/bill_yang_avatar.gif
+    descr: "dalao*5"
 qiqi:
     link: https://bomb-chicken.github.io/
     avatar: /img/qiqi_avatar.jpg
@@ -110,3 +114,15 @@ nn020701:
     link: http://blog.csdn.net/nn020701/
     avatar: /img/nn020701_avatar.jpg
     descr: "陈天才"
+cogito:
+    link: https://cogito.coding.me/
+    avatar: /img/cogito_avatar.png
+    descr: "人赢大头"
+jzqjzq:
+    link: http://blog.csdn.net/jzq233jzq/
+    avatar: /img/jzq_avatar.jpg
+    descr: "金犇"
+mdnd:
+    link: http://blog.csdn.net/mdnd1234/
+    avatar: /img/mdnd_avatar.jpg
+    descr: "萌呆"
