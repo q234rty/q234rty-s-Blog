@@ -98,7 +98,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2016
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
@@ -142,7 +142,7 @@ hanabi:
 #   For example, you can setup a CC license as:
 #       'This blog is under a <a href="/creativecommons.html" target="_blank">CC BY-NC-SA 3.0 Unported License</a>'
 # You can also use Front-Matter `license` to override this setting.
-license: 
+license: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. 
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -282,18 +282,18 @@ vendors:
 #   The new src will have the base domain you configured below.
 #   For example
 #       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
-    materialcdn:
+    materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.5.0/source
 
 # Third party library
 #   You can load these files from public cdn.
 #   For example
 #       jquery: https://cdn.bootcss.com/jquery/2.2.1/jquery.js
     # jQuery 2.2.0
-    jquery:
+    jquery: 
     # nprogress 0.2.0
-    nprogress:
+    nprogress: 
     # FontAwesome 4.5.0
-    fontawesome:
+    fontawesome: 
     # MathJax 2.7.0-2.7.1
     mathjax:
     # Prettify r298 (only prettify.js)
