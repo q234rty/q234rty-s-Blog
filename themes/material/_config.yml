@@ -227,22 +227,33 @@ sidebar:
 
 # Comment Systems
 # Available value of "use":
-#     disqus | disqus_click | changyan | livere | gitment | valine
-# If you want to use gitment,you should get the client_id and client_secret form https://github.com/settings/applications/new
-# If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://github.com/xCss/Valine
+#     disqus | disqus_click | changyan | livere | gitment | gitalk | valine
+# If you want to use gitment or gitalk,you should get the client_id and client_secret form https://github.com/settings/applications/new
+# If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://valine.js.org
 comment:
     use: valine
-    shortname: q234rtysblog # duoshuo or disqus shortname
+    shortname: # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
-    livere_data_uid: 
-    gitment_owner: q234rty
-    gitment_repo: gitment-of-q234rty-s-Blog
-    gitment_client_id: db16ff2fce4b6c08542d
-    gitment_client_secret: 3ab05d4246a2baeec2a5de26ade9fbf2606249e9
+    livere_data_uid:
+    gitment_repo:   # git repo of the hexo
+    gitment_owner:  # git repo's owner
+    gitment_client_id:  # github app client id 
+    gitment_client_secret :  # github app client secret 
     valine_leancloud_appId: SuzIcOBo2rY9T18mS0g03ObY-gzGzoHsz # leancloud application app id
     valine_leancloud_appKey: Gcgge7lFVj16eq5kznbTWQI9 # leancloud application app key
+    valine_notify: true # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+    valine_verify: true # valine verify code (true/false)
+    valine_pageSize: 10 # comment list page size
+    valine_avatar: identicon # gravatar style https://valine.js.org/#/avatar
+    valine_lang: zh-cn # i18n
+    valine_placeholder: 博主蒟蒻，欢迎神犇指教 # valine comment input placeholder(like: Please leave your footprints )
+    valine_guest_info: nick,mail,link #valine comment header info
+    gitalk_repo: # git repo of the hexo
+    gitalk_owner: # git repo's owner
+    gitalk_client_id: # github app client id 
+    gitalk_client_secret: # github app client secret
 
 # Search Systems
 # Available value:
@@ -282,7 +293,7 @@ vendors:
 #   The new src will have the base domain you configured below.
 #   For example
 #       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
-    materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.5.0/source
+    materialcdn: https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@1.5.2/source/
 
 # Third party library
 #   You can load these files from public cdn.

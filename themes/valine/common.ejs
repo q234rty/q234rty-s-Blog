@@ -1,0 +1,13 @@
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/xcss/valine@v1.1.8/dist/Valine.min.js"></script>
+<script>
+	new Valine({
+        av: AV, // source from av-min.js
+        el: '.comment',
+        notify:true, //QAQ
+        app_id: '<%= theme.comment.valine_leancloud_appId %>',
+        app_key: '<%= theme.comment.valine_leancloud_appKey %>',
+        placeholder: '博主蒟蒻，欢迎神犇指教',
+        path: location.pathname.replace(/[^/]*$/, '')
+    });
+</script>
