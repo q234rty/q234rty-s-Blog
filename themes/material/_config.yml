@@ -62,8 +62,8 @@ thumbnail:
 #         color available value: black, blue, brown, green, multi, orange, pink, purple, red, white, yellow
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
-    purecolor: "#F5F5F5"
-    #bgimg: "/img/bg.png"
+    #purecolor: "#F5F5F5"
+    bgimg: "https://i.loli.net/2018/01/12/5a58ca308f277.jpg"
     bing:
         enable: false
         parameter:
