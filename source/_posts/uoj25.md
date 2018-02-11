@@ -31,95 +31,85 @@ $$
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
-const int MAXSIZE=10000020;
-int bufpos;
-char buf[MAXSIZE];
-#define NEG 0
-void init(){
-	#ifdef LOCAL
-		freopen("2254.txt","r",stdin);
-	#endif
-	buf[fread(buf,1,MAXSIZE,stdin)]='\0';
-	bufpos=0;
-}
-#if NEG
-int readint(){
-	bool isneg;
-	int val=0;
-	for(;!isdigit(buf[bufpos]) && buf[bufpos]!='-';bufpos++);
-	bufpos+=(isneg=buf[bufpos]=='-');
-	for(;isdigit(buf[bufpos]);bufpos++)
-		val=val*10+buf[bufpos]-'0';
-	return isneg?-val:val;
-}
-#else
-int readint(){
-	int val=0;
-	for(;!isdigit(buf[bufpos]);bufpos++);
-	for(;isdigit(buf[bufpos]);bufpos++)
-		val=val*10+buf[bufpos]-'0';
-	return val;
-}
-#endif
-char readchar(){
-	for(;isspace(buf[bufpos]);bufpos++);
-	return buf[bufpos++];
-}
-int readstr(char* s){
-	int cur=0;
-	for(;isspace(buf[bufpos]);bufpos++);
-	for(;!isspace(buf[bufpos]);bufpos++)
-		s[cur++]=buf[bufpos];
-	s[cur]='\0';
-	return cur;
-}
-ll ans[50001],now;
-int a[50001],cnt[2][50001],pl[50001];
-struct query{
-	int p,sgn,l1,l2;
-	bool operator <(const query& rhs)const{
-		return pl[l1]!=pl[rhs.l1]?pl[l1]<pl[rhs.l1]:l2<rhs.l2;
+const int INF=100000;
+struct tag{
+	int l,r;
+	tag():l(0),r(INF){}
+	tag(int x):l(x),r(x){}
+	tag(int l,int r):l(l),r(r){}
+	tag operator +(const tag& rhs)const{
+		if (r<rhs.l)
+			return rhs.l;
+		if (rhs.r<l)
+			return rhs.r;
+		return tag(max(l,rhs.l),min(r,rhs.r));
 	}
-}q[200001];
-void update(int p,int v,int sgn){
-	now+=sgn*cnt[p^1][v];
-	cnt[p][v]+=sgn;
-}
-int main(){
-	init();
-	int n=readint(),cur=0;
-	for(int i=1;i<=n;i++)
-		a[i]=readint();
-	int m=readint();
-	for(int i=1;i<=m;i++){
-		int l1=readint()-1,r1=readint(),l2=readint()-1,r2=readint();
-		if (l1)
-			q[++cur]=(query){i,-1,l1,r2};
-		if (l2)
-			q[++cur]=(query){i,-1,l2,r1};
-		if (l1 && l2)
-			q[++cur]=(query){i,1,l1,l2};
-		q[++cur]=(query){i,1,r1,r2};
+	tag& operator +=(const tag& rhs){
+		return *this=*this+rhs;
 	}
-	int sz=sqrt(n)+0.5;
-	for(int i=1;i<=n;i++)
-		pl[i]=(i-1)/sz+1;
-	sort(q+1,q+cur+1);
-	int l1=0,l2=0;
-	for(int i=1;i<=cur;i++){
-		while(l1<q[i].l1)
-			update(0,a[++l1],1);
-		while(l1>q[i].l1)
-			update(0,a[l1--],-1);
-		while(l2<q[i].l2)
-			update(1,a[++l2],1);
-		while(l2>q[i].l2)
-			update(1,a[l2--],-1);
-		ans[q[i].p]+=now*q[i].sgn;
+};
+const int maxn=2000001;
+struct segtree{
+	int n;
+	tag tagv[maxn*4];
+	void build(int o,int l,int r){
+		if (l==r){
+			tagv[o]=0;
+			return;
+		}
+		int mid=(l+r)/2;
+		build(o*2,l,mid);
+		build(o*2+1,mid+1,r);
 	}
-	for(int i=1;i<=m;i++)
-		printf("%lld\n",ans[i]);
+	void init(int n){
+		this->n=n;
+		build(1,0,n-1);
+	}
+	void pushdown(int o){
+		tagv[o*2]+=tagv[o];
+		tagv[o*2+1]+=tagv[o];
+		tagv[o]=tag();
+	}
+	int ul,ur;
+	tag v;
+	void update(int o,int l,int r){
+		if (ul<=l && ur>=r){
+			tagv[o]+=v;
+			return;
+		}
+		int mid=(l+r)/2;
+		pushdown(o);
+		if (ul<=mid)
+			update(o*2,l,mid);
+		if (ur>mid)
+			update(o*2+1,mid+1,r);
+	}
+	void update(int op,int l,int r,int h){
+		ul=l,ur=r;
+		v=op==1?tag(h,INF):tag(0,h);
+		update(1,0,n-1);
+	}
+	int* ans;
+	void dfs(int o,int l,int r,tag t=tag()){
+		if (l==r){
+			ans[l]=(tagv[o]+t).l;
+			return;
+		}
+		int mid=(l+r)/2;
+		tag w=tagv[o]+t;
+		dfs(o*2,l,mid,w);
+		dfs(o*2+1,mid+1,r,w);
+	}
+	void query(int *ans){
+		this->ans=ans;
+		dfs(1,0,n-1);
+	}
+}t;
+void buildWall(int n,int m,int *op,int *l,int *r,int *h,int *ans){
+	t.init(n);
+	for(int i=0;i<m;i++)
+		t.update(op[i],l[i],r[i],h[i]);
+	t.query(ans);
 }
 ```
 
