@@ -110,10 +110,10 @@ zhouyuyang:
     link: http://blog.csdn.net/zhouyuyang233
     avatar: /img/zyy_avatar.jpg
     descr: "初三PKU一本爷"
-nn020701:
-    link: http://blog.csdn.net/nn020701/
-    avatar: /img/nn020701_avatar.jpg
-    descr: "陈天才"
+redbag:
+    link: http://redbag.pw/
+    avatar: https://i.loli.net/2018/03/04/5a9b4aee0a73b.jpg
+    descr: "ylx"
 cogito:
     link: https://cogito.coding.me/
     avatar: /img/cogito_avatar.png
@@ -122,6 +122,10 @@ jzqjzq:
     link: https://jzqjzq.coding.me/
     avatar: /img/jzq_avatar.jpg
     descr: "金犇"
+nn020701:
+    link: http://blog.csdn.net/nn020701/
+    avatar: /img/nn020701_avatar.jpg
+    descr: "陈天才"
 mdnd:
     link: http://blog.csdn.net/mdnd1234/
     avatar: /img/mdnd_avatar.jpg
