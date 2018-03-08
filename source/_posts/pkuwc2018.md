@@ -1,7 +1,7 @@
 ---
 title: PKUWC2018没约记
 mathjax: false
-toc: false
+toc: true
 date: 2018-02-03 05:56:46
 tags:
 - 游记
