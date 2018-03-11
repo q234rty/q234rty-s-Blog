@@ -75,10 +75,7 @@ img:
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
-    footer_image:
-        coding_pages_logo:
-            link: "https://pages.coding.net/"
-            src: "/img/f452324a7d42a04f5d11efe5497923cc.svg"
+    footer_image: 
 
 # Custom Fonts
 #    family: the font-family which will be used in the theme
@@ -89,7 +86,7 @@ img:
 #          to /source/data/head.yml as custom code, to load custom font files.
 fonts:
     family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
-    use: google
+    use: catnet
     custom_font_host:
 
 # Card Elevation Level
@@ -104,7 +101,7 @@ copyright_since: 2016
 # You can specify the text you want to show in footer, HTML tag is supported.
 #   For example, you can setup ICP license number as:
 #       '<a href="http://www.miitbeian.gov.cn" rel="nofollow">某ICP备xxxxxxxx号-x</a>'
-footer_text:
+footer_text: '<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>'
 
 # Qrcode for redirect at other device
 #    use: choose which method to generate the qrcode for each posts.
@@ -212,10 +209,10 @@ sidebar:
             icon: person
             divider: true
     article_num:
-        use: false
+        use: true
         divider: false
     footer:
-        divider: false
+        divider: true
         theme: true
         support: false
         feedback: false
