@@ -67,10 +67,6 @@ theme: material
 search:
   path: search.xml
   field: post
-# Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
-markdown: 'commonmark'
-html: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
