@@ -63,15 +63,15 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     #purecolor: "#F5F5F5"
-    bgimg: "https://i.loli.net/2018/01/12/5a58ca308f277.jpg"
+    bgimg: "https://s1.ax1x.com/2018/04/09/CilG7Q.jpg"
     bing:
         enable: false
         parameter:
 
 # Images Settings
 img:
-    logo: "https://i.loli.net/2018/02/20/5a8c184a938e0.png"
-    avatar: "https://i.loli.net/2018/02/20/5a8c184a91b6e.png"
+    logo: "https://s1.ax1x.com/2018/04/09/Cil80g.png"
+    avatar: "https://s1.ax1x.com/2018/04/09/CilYkj.png"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
