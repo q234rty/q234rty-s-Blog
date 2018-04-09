@@ -97,23 +97,20 @@ jsonContent:
 live2d:
   enable: true
   scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
   model:
-    use: live2d-widget-model-tororo
-    scale: 0.7
+    use: ./live2d_models/Pio
+    scale: 0.8
     hHeadPos: 0.5
     vHeadPos: 0.618
   display:
     superSample: 2
-    width: 105
-    height: 210
+    width: 130
+    height: 160
     position: left
     hOffset: 0
-    vOffset: -20
+    vOffset: -80
   mobile:
-    show: true
+    show: false
     scale: 0.5
   react:
     opacityDefault: 1
