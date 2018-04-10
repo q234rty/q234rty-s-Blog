@@ -2,9 +2,7 @@
     "version":"1.0.0",
     "model":"model.moc",
     "textures":[
-        "textures/default-costume.png",
-        "textures/pajamas-costume.png",
-        "textures/school-costume.png"
+        "https://cdn.vijos.org/fs/a9b693b524b64d8d0051abc4cf4fa19246ed6b58"
     ],
     "layout":{
         "center_x":0.0,
