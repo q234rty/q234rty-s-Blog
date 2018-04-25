@@ -213,7 +213,7 @@ sidebar:
         divider: false
     footer:
         divider: true
-        theme: true
+        theme: false
         support: false
         feedback: false
         material: false

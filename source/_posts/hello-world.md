@@ -12,8 +12,6 @@ tags:
 
 $\KaTeX$
 
-
-
 ```cpp
 #include <cstdio>
 ```

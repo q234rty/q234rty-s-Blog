@@ -95,7 +95,7 @@ jsonContent:
     categories: false
     tags: true
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   model:
     use: ./live2d_models/Pio
