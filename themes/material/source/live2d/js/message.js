@@ -60,7 +60,7 @@ initTips();
 
 (function (){
     var text;
-    if(document.referrer !== ''){
+    if(document.referrer !== '' && document.referrer !== `${home_Path}`){
         var referrer = document.createElement('a');
         referrer.href = document.referrer;
         text = '嗨！来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友！';
