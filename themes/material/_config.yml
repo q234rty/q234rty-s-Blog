@@ -63,15 +63,15 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     #purecolor: "#F5F5F5"
-    bgimg: "https://s1.ax1x.com/2018/04/09/CilG7Q.jpg"
+    bgimg: "https://cdn.vijos.org/fs/1bd5b41ff3b7f2e301bbbbfb642156ca60430f1f"
     bing:
         enable: false
         parameter:
 
 # Images Settings
 img:
-    logo: "https://s1.ax1x.com/2018/04/09/Cil80g.png"
-    avatar: "https://s1.ax1x.com/2018/04/09/CilYkj.png"
+    logo: "https://cdn.vijos.org/fs/2ec48f48938f4310d54320d9bfacdaa12cb63602"
+    avatar: "https://cdn.vijos.org/fs/a9eb51d4b2a6cb583e6c21e131ea9b81f20b833b"
     daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     random_thumbnail: "/img/random/material-"
