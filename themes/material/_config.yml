@@ -155,7 +155,7 @@ toc:
 # SNS Menu
 sns:
     email: q23456yuiop@gmail.com
-    facebook: "https://www.facebook.com/liu.baicheng.773"
+    facebook: 
     twitter: "https://twitter.com/q234rty"
     googleplus: "https://plus.google.com/u/0/114472944950376792074"
     weibo:
@@ -175,7 +175,7 @@ sns_share:
     weibo: true
     linkedin: false
     qq: true
-    telegram: false
+    telegram: true
 
 # Sidebar Customize
 sidebar:
