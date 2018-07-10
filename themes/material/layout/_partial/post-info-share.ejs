@@ -11,7 +11,13 @@
             </li>
         </a>
     <% } %>
-
+    <a class="post_share-link" href="#">
+        <li class="mdl-menu__item">
+            <span id="<%= url_for(page.path) %>" class="leancloud_visitors" data-flag-title="<%= page.title %>">
+                 <span class="leancloud-visitors-count"></span>&nbsp;<%= __('post.views') %>
+            </span>
+        </li>
+    </a>
     <% if(theme.busuanzi.enable === true) { %>
         <% if(theme.busuanzi.post_pv === true) { %>
             <!-- Busuanzi Views -->
