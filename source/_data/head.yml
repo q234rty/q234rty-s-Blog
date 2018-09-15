@@ -1,2 +1,2 @@
 KaTeX: 
-    <link href="//cdn.staticfile.org/KaTeX/0.7.1/katex.min.css" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/npm/katex@0.7.1/dist/katex.min.css" rel="stylesheet">
