@@ -62,7 +62,7 @@ initTips();
     var text;
     var referrer = document.createElement('a');
     referrer.href = document.referrer;
-    if(document.referrer !== '' && referrer.hostname !== 'q234rty.top'){
+    if(document.referrer !== '' && referrer.hostname !== 'www.q234rty.top'){
         text = '嗨！来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友！';
         var domain = referrer.hostname.split('.')[1];
         if (domain == 'baidu') {

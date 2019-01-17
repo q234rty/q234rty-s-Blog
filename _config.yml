@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://q234rty.top
+url: https://www.q234rty.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -70,11 +70,11 @@ search:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  # - type: git
-    # repo: https://github.com/q234rty/q234rty.github.io.git
-    # branch: master
+  #- type: git
+    #repo: https://github.com/q234rty/q234rty.github.io.git
+    #branch: master
   - type: git
-    repo: git@git.coding.net:q234rty/q234rty.coding.me.git
+    repo: https://git.coding.net/q234rty/q234rty.coding.me.git
     branch: master
 jsonContent:
   meta: false
