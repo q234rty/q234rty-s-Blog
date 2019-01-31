@@ -87,7 +87,7 @@ img:
 fonts:
     family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
     use: custom
-    custom_font_host: "https://fonts.loli.net/"
+    custom_font_host: "https://fonts.loli.net"
 
 # Card Elevation Level
 card_elevation: 2
