@@ -238,8 +238,8 @@ comment:
     gitment_owner:  # git repo's owner
     gitment_client_id:  # github app client id 
     gitment_client_secret :  # github app client secret 
-    valine_leancloud_appId: SuzIcOBo2rY9T18mS0g03ObY-gzGzoHsz # leancloud application app id
-    valine_leancloud_appKey: Gcgge7lFVj16eq5kznbTWQI9 # leancloud application app key
+    valine_leancloud_appId: rACHDWiYLGe6YkeKcdqBDiyt-MdYXbMMI # leancloud application app id
+    valine_leancloud_appKey: M0O55DNlVYuKASsjbHXszD5e # leancloud application app key
     valine_notify: true # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
     valine_verify: true # valine verify code (true/false)
     valine_pageSize: 10 # comment list page size
