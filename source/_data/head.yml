@@ -1,2 +1,2 @@
-KaTeX: 
-    <link href="//cdn.jsdelivr.net/npm/katex@0.7.1/dist/katex.min.css" rel="stylesheet">
+math: 
+    <link href="//cdn.jsdelivr.net/npm/hexo-renderer-syzoj-renderer@1.0.0/math.css" rel="stylesheet">
